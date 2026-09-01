@@ -25,6 +25,7 @@ Evoke is a high-performance native macOS switcher and spatial workspace controll
 
 ### Key Capabilities
 - **360° Radial Muscle Memory**: Hold `⌥ Option` to invoke your active applications in an orbital circle; release to focus instantly.
+- **⌥ Conflict-Proof Summoning**: ⌥ is a system shortcut in many places (Finder's "Copy as Pathname", terminal meta key, ⌥+drag to copy). Exclude any app via *Trigger → Excluded Apps*, and the ring auto-suppresses while a context menu is open, a mouse button is held, or ⌥ is part of a `⌘⌥`/`⌃⌥` combo — so system ⌥ shortcuts are never interrupted by an accidental ring.
 - **Workspaces & Instant Restore**: Press `⌃⌥S` to snapshot multi-window, multi-display layouts; restore your entire flow with one tap.
 - **Shake-to-Snap (24-Grid Canvas)**: Gently shake any window's title bar to summon a 6×4 precision grid for freeform tiling. Cancel anytime with `Esc`.
 - **4K Gallery & QuickLook**: Hover over any app to inspect memory usage; press `Space` for full-resolution multi-window preview and navigate with `← / →`.
